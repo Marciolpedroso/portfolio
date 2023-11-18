@@ -1,0 +1,151 @@
+/* font-family: 'Dosis', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --color-base-blue: rgb(67, 86, 126);
+    --color-base-black: #000000;
+    --color-base-white: #ffffff;
+    --color-base-grey-600: #262f36;
+    --color-base-grey: #d0d0d0;
+    --color-base-baby-green: rgb(147, 229, 193);
+}
+
+body {
+    font-size: 1.6rem;
+    max-width: 43rem;
+    margin-inline: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: var(--color-base-blue);
+    color: var(--color-base-white);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.logo {
+    width: 2.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.0rem;
+} 
+
+a {
+    color: var(--color-base-white);
+    opacity: 60%;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+a:hover {
+    opacity: 100%;
+}
+
+.cards {
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+    display: grid;
+    gap: 1.0rem;
+    color: var(--color-base-white);
+}
+
+.cards > div {
+    border: 2px solid #202024;
+    border-radius: 8px;
+    background-color: var(--color-base-grey-600);
+    overflow: hidden;
+}
+
+.cards h1 {
+    font-size: 2.0rem;
+    margin-top: 1.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.cards p {
+    margin-left: 1.0rem;
+    margin-right: 1.0rem;
+}
+
+.p1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.p2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.p3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.p4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.p5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.p6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.p7 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.p8 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+footer {
+    padding: 1.0rem;
+    background-color: var(--color-base-blue);
+    color: var(--color-base-white);
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
